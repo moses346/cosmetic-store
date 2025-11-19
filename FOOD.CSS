@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #fff0f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #ffb6c1;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Hero Banner */
+.hero {
+    background: url('https://via.placeholder.com/1500x600?text=Romise+Cosmetics+Banner') center/cover no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 8px #000;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Section Titles */
+.section-title {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 32px;
+    color: #d63384;
+}
+
+/* Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* About Section */
+.about {
+    padding: 40px;
+    background: white;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+/* Contact Section */
+.contact {
+    background: #ffb6c1;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #d63384;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero {
+        font-size: 32px;
+    }
+}
